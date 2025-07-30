@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: han-ai-code-mother-backend
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+# springdoc-openapi 项目配置
+springdoc:
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.hanshan.hanaicodemother.controller
+# knife4j 增强配置
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
