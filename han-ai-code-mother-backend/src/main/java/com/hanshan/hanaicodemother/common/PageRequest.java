@@ -11,12 +11,12 @@ public class PageRequest {
     /**
      * 当前页号
      */
-    private int pageNum;
+    private int pageNum = 1;
 
     /**
      * 页面大小
      */
-    private int pageSize;
+    private int pageSize = 10;
 
     /**
      * 排序字段
